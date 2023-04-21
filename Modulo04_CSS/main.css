@@ -88,6 +88,22 @@ section h2,
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#entertainment {
+    background-color: rgb(200, 234, 255);
+}
+
+#entertainment .articles article a {
+    background-color: rgb(39, 39, 247);
+}
+
+#technology {
+    background-color: rgb(250, 212, 218);
+}
+
+#technology .articles article a {
+    background-color: red;
+}
+
 #sports {
     background-color: rgba(0, 255, 0, 0.1);
 }
