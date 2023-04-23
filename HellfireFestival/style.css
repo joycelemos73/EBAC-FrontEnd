@@ -1,0 +1,199 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    color: #fefefe;
+    background: black;
+}
+
+.festival-title,
+.about-festival h2,
+.line-up h2,
+.newsletter h2 {
+    font-family: 'Merienda', cursive;
+}
+
+.about-festival h2,
+.line-up h2,
+.newsletter h2 {
+    font-size: 50px;
+}
+
+header {
+    padding: 25px 0;
+}
+
+header p {
+    color: gray;
+    font-size: 14px;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+.caixa-menu {
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+}
+
+header li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.lista-menu {
+vertical-align: bottom;
+}
+
+.lista-menu a {
+    display: inline-block;
+    text-transform: lowercase;
+    color: #fefefe;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.lista-menu a:hover {
+    color: rgb(194, 1, 197);
+    text-decoration: underline;
+}
+
+.main-info {
+    background-color: rgb(112, 2, 114);
+    background-image: url(./img/crowd.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    width: 100%;
+    padding: 100px 0;
+    background-position: center center;
+    text-align: center;
+}
+
+.festival-title {
+    font-size: 100px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.main-info p {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: lowercase;
+    padding-bottom: 30px;
+}
+
+.buy-tickets {
+    width: 30%;
+    padding: 15px 0;
+    background-color: rgb(203, 115, 0);
+    color: #fefefe;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.buy-tickets:hover {
+    background-color: rgb(194, 1, 197);
+    transform: scale(1.1);
+}
+
+.about-festival {
+    background: linear-gradient(black, rgb(48, 1, 48));
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about-festival h2 {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    color: rgb(224, 8, 228);
+
+}
+
+.about-festival p {
+    font-size: 24px;
+    width: 50%;
+    display: inline-block;
+    line-height: 1.5;
+    padding: 0 20px;
+    border-left: rgb(194, 1, 197) 2px solid;
+}
+
+.line-up {
+    padding: 100px 0;
+    background-color: rgb(70, 1, 71);
+    background-image: url(./img/background-bands.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center center;
+    width: 100%;
+}
+
+.bands-cover{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bands-cover article img {
+    height: 180px;
+    width: 90%;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+
+.bands-cover article {
+    width: 33%;
+}
+
+.line-up h2 {
+    text-align: center;
+    color: rgb(203, 115, 0);
+    padding-bottom: 50px;
+}
+
+.newsletter {
+    background: linear-gradient(black, rgb(51, 0, 52));
+    padding: 100px;
+    text-align: center;
+}
+
+.newsletter p {
+    color: rgb(203, 115, 0);
+    font-size: 20px;
+    padding: 40px 0 20px 0;
+    text-transform: lowercase;
+}
+
+.standard-input {
+    padding: 10px;
+    margin: 5px;
+}
+
+.sign-up {
+    width: auto;
+    padding: 12px;
+    background-color: rgb(194, 1, 197);
+    color: #fefefe;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(51, 0, 52);
+    padding: 40px 0;
+}
+
+.copyright {
+    font-size: 13px;
+    margin-top: 20px;
+}
