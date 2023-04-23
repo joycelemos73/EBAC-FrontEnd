@@ -12,14 +12,16 @@
 <p>
     This is a landing page for the fictional Hellfire Festival, a three-day metal music event featuring over 25 artists and 300,000 attendees.<br />
     The landing page is built using pure HTML and CSS, without the use of any frameworks or libraries.
-</p>
+</p><br />
 <h3>:rocket: Getting Started</h3>
 <p>
     To view the landing page, simply download or clone this repository and open the 'index.html' file in your web browser.<br /><br />
     git clone https://github.com/joycelemos73/EBAC-FrontEnd/tree/exercicio_projeto01/HellfireFestival<br />
     cd HellfireFestival<br />
-    open index.html
-</p>
+    open index.html<br /><br />
+    Alternatively, you can view the live version of tha page at https://hellfirefestival.vercel.app/
+    
+</p><br />
 <h3>:hammer: Built With</h3>
 <ul>
     <li>HTML</li>
