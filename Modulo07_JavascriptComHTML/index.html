@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Módulo 07: Integrando HTML com JavaScript</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Exercício de Validação</h1>
+        <form id="form-validacao">
+            <label for="campoA">Campo A: </label>
+            <input type="number" id="campoA" required placeholder="Primeiro valor" />
+
+            <label for="campoB">Campo B: </label>
+            <input type="number" id="campoB" required placeholder="Segundo valor" />
+            <p class="error-message">
+                O segundo número precisa ser maior que o primeiro.
+            </p>
+            <button id="button-valida" type="submit">Validar</button>
+        </form>
+        <p class="success-message">
+            Formulário válido!
+        </p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
