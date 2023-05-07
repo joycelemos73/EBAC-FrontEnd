@@ -1,7 +1,16 @@
+:root {
+    --background-colour: #000000;
+    --table-background-colour: #1C1B1F;
+    --lilac: #D6BAFF;
+    --text-colour: #E6E1E5;
+    --success-button-color: #005F26;
+    --error-button-colour: #93000A;
+}
+
 body{
-    background-color: black;
+    background-color: var(--background-colour);
     font-family: 'Inter', sans-serif;
-    color: #E6E1E5;
+    color: var(--text-colour);
     padding-top: 100px;
 }
 
@@ -31,7 +40,23 @@ form input{
 form button {
     font-weight: bold;
     color: #1C1B1F;
-    background-color: #D6BAFF;
+    background-color: var(--lilac);
     padding: 11px 32px;
     border-radius: 100px;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    padding-bottom: 18px;
+}
+
+table td{
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 0;
+    background-color: var(--table-background-colour);
+    border-bottom: var(--background-colour);
 }
