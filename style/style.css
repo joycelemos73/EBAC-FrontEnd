@@ -1,0 +1,79 @@
+* {
+    --background-gray: #121212;
+    --white: #FFFFFF;
+    --orange: #e8a43e;
+    --pink: #ee0290;
+    --purple: #ba00e5;
+    --purple-hover: #a200e0;
+    --cyan: #2CD3E1;
+    --black: #070707;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-gray);
+}
+
+header {
+    color: var(--white);
+    margin: 30px 20px 0 20px;
+    width: 30%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+header button{
+    background-color: var(--purple);
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+header button:hover {
+    background-color: var(--purple-hover);
+    cursor: pointer;
+}
+
+header img {
+    width: 2rem;
+    padding-left: 0.5rem;
+    filter: invert(100%);
+}
+
+form {
+    background-color: var(--black);
+    padding: 1rem;
+    display: flex;
+    width: 30%;
+}
+
+form input, form button{
+    padding: 8px;
+    margin-left: 6px;
+}
+input {
+    border-radius: px;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+form img {
+    filter: invert(100%);
+    width: 2.5rem;
+    padding-left: 0.5rem;
+}
