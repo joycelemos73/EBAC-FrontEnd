@@ -16,8 +16,7 @@ body {
 
 header {
     color: var(--white);
-    margin: 30px 20px 0 20px;
-    width: 30%;
+    margin: 40px 0 0 40px;
 }
 
 h1 {
@@ -36,7 +35,7 @@ header button{
     border-radius: 5px;
     display: flex;
     align-items: center;
-    margin-bottom: 0.5rem;
+    margin: 3.5rem 0.5rem 0 0;
 }
 
 header button:hover {
@@ -52,14 +51,12 @@ header img {
 
 form {
     background-color: var(--black);
-    padding: 1rem;
     display: flex;
-    width: 30%;
+    padding: 16px 16px 16px 40px;
 }
 
 form input, form button{
     padding: 8px;
-    margin-left: 6px;
 }
 input {
     border-radius: px;
@@ -76,4 +73,24 @@ form img {
     filter: invert(100%);
     width: 2.5rem;
     padding-left: 0.5rem;
+}
+
+.sidebar-navigation {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.sidebar{
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+
+}
+
+.todo-tasks{
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    padding: 10px;
+    color: white;
 }
