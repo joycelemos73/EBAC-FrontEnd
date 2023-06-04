@@ -29,7 +29,7 @@
                 </button>
             </header>
             <form>
-                <input type="url" id="new_task_to_do" required placeholder="New Task">
+                <input type="text" id="new_task" required placeholder="New Task">
                 <button type="submit">
                     <img src="./images/icon_check_circle.svg" alt="Add item icon">
                 </button>
@@ -40,8 +40,8 @@
         </nav>
 
         <article class="todo-tasks">
-            <ul>
-                <li>
+            <ul class="list" id="list">
+                <!-- <li>
                     Complete the report for the marketing campaign.
                 </li>
                 <li>
@@ -49,11 +49,12 @@
                 </li>
                 <li>
                     Schedule a dentist appointment.
-                </li>
+                </li> -->
             </ul>
             
         </article>
     </section>
-
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
