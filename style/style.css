@@ -1,22 +1,19 @@
 * {
-    --background-gray: #121212;
     --white: #FFFFFF;
-    --orange: #e8a43e;
-    --pink: #ee0290;
-    --purple: #ba00e5;
-    --purple-hover: #a200e0;
-    --cyan: #2CD3E1;
+    --gray: #f0f0f0;
+    --blue: #4F709C;
+    --blue-hover: #213555;
     --black: #070707;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: var(--background-gray);
+    background-color: var(--white);
 }
 
 header {
-    color: var(--white);
-    margin: 40px 0 0 40px;
+    color: var(--black);
+    margin: 40px 0 8px 40px;
 }
 
 h1 {
@@ -30,16 +27,17 @@ h2 {
 }
 
 header button{
-    background-color: var(--purple);
+    color: var(--white);
+    background-color: var(--blue);
     padding: 0.5rem 1.5rem;
-    border-radius: 5px;
+    border-radius: 8px;
     display: flex;
     align-items: center;
     margin: 3.5rem 0.5rem 0 0;
 }
 
 header button:hover {
-    background-color: var(--purple-hover);
+    background-color: var(--blue-hover);
     cursor: pointer;
 }
 
@@ -65,8 +63,6 @@ input {
 button{
     border: none;
     cursor: pointer;
-    font-weight: bold;
-    color: white;
 }
 
 form img {
@@ -84,13 +80,22 @@ form img {
     -webkit-flex: 2;
     -ms-flex: 2;
     flex: 2;
-
+    background-color: var(--beige);
+    height: 960px;
 }
 
 .todo-tasks{
     -webkit-flex: 3;
     -ms-flex: 3;
     flex: 3;
-    padding: 10px;
-    color: white;
+    padding: 50px;
+    color: var(--black);
+    background-color: var(--gray);
+}
+
+article li {
+    background-color: var(--white);
+    padding: 16px;
+    border-radius: 16px;
+    margin-bottom: 8px;
 }
