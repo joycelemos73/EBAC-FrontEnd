@@ -99,3 +99,13 @@ article li {
     border-radius: 16px;
     margin-bottom: 8px;
 }
+
+li:hover {
+    background-color: var(--blue);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+}
