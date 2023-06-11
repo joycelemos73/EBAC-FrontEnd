@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Judson:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>Cadastro</title>
 </head>
+
 <body>
-    
+    <section class="sidebar">
+        <nav>
+            <header>
+                <h1 class="nome-marca">InteriorOasis</h1>
+            </header>
+        </nav>
+
+        <article >
+
+            <form class="cadastro">
+                <h2>Cadastre-se</h2>
+
+                <label>Nome completo</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label>CPF</label>
+                <input type="text" id="cpf" name="cpf" required/>
+
+                <label>Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label>Telefone</label>
+                <input type="tel" id="telefone" name="telefone" required>
+
+                <label>CEP</label>
+                <input type="text" id="cep" name="cep" required/>
+
+                <label>Endereço</label>
+                <input type="text" id="endereco" name="endereco" required/>
+
+                <button type="submit">Cadastrar</button>
+            </form>
+        </article>
+    </section>
 </body>
 </html>

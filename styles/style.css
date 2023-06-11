@@ -1,0 +1,88 @@
+*{
+    --preto: #000000;
+    --background-form: #AABDC1;
+    --rosa-botao: #E96AA9;
+    --cinza-borda-input: #A1A7A3;
+    --fonte-marca: 'Judson', serif;
+    --fonte-texto: 'Inter', sans-serif;
+}
+
+.nome-marca{
+    font-family: var(--fonte-marca);
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--preto);
+    margin: 32px 0 0 320px;
+}
+
+body{
+    font-family: var(--fonte-texto);
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--background-form);
+}
+
+section{
+    display: -webkit-flex;
+    display: flex;
+}
+
+nav{
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    height: 100vh;
+    background-image: url('../img/background-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+}
+
+article{
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+}
+
+article h2 {
+    font-size: 24px;
+    margin-bottom: 56px;
+}
+
+.cadastro{
+    border-radius: 16px;
+    margin: 80px 0 0 240px;
+}
+
+form label, form input, form button{
+    display: block;
+}
+
+form label, input{
+    font-size: 16px;
+    background-color: var(--background-form);
+    margin-bottom: 16px;
+}
+form label{
+    width: 528px;
+}
+
+input{
+    height: 24px;
+    width: 528px;
+    border-bottom: var(--cinza-borda-input) 1px solid;
+
+}
+
+button {
+    background-color: var(--rosa-botao);
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 24px;
+    margin-top: 40px;
+}
+
+
