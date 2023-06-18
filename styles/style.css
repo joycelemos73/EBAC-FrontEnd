@@ -51,7 +51,7 @@ article{
 }
 
 article h2 {
-    font-size: 24px;
+    font-size: 18px;
     margin-bottom: 48px;
     margin-right: 5vw;
     text-align: center;
@@ -93,4 +93,7 @@ button {
     margin-top: 40px;
 }
 
-
+button:hover{
+    background-color: #a756d2;
+    cursor: pointer;
+}
