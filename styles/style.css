@@ -2,6 +2,7 @@
     --preto: #000000;
     --background-form: #AABDC1;
     --rosa-botao: #E96AA9;
+    --cinza: #5C5F5D;
     --cinza-borda-input: #A1A7A3;
     --fonte-marca: 'Judson', serif;
     --fonte-texto: 'Inter', sans-serif;
@@ -13,6 +14,10 @@
     font-weight: 400;
     color: var(--preto);
     margin: 32px 0 0 360px;
+}
+
+#bold-text {
+    font-weight: 800;
 }
 
 body{
@@ -47,7 +52,10 @@ article{
 
 article h2 {
     font-size: 24px;
-    margin-bottom: 56px;
+    margin-bottom: 48px;
+    margin-right: 5vw;
+    text-align: center;
+
 }
 
 .cadastro{
@@ -66,13 +74,13 @@ form label, input{
 }
 form label{
     width: 528px;
+    color: var(--cinza);
 }
 
 input{
     height: 24px;
     width: 528px;
     border-bottom: var(--cinza-borda-input) 1px solid;
-
 }
 
 button {
