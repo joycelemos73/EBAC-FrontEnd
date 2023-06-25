@@ -40,7 +40,7 @@ The responsive design includes:<br />
   <h3>🌐 Plugins</h3>
 
   The web page includes a reference to the <a href="https://jquery.com/download/">jQuery library</a>, enabling the smooth opening and closing of the menu button.<br />
-  This is achieved by using a jQuery function to assign a click event to the button, triggering a slide toggle effect on the menu element for a seamless user experience.
+  This is achieved by using a jQuery function to assign a click event to the button, triggering a slide toggle effect on the menu element for a seamless user experience.<br /><br />
 
   <h3>📸 Screenshots</h3>
     <img src="img/desktop.png" alt="Desktop">
