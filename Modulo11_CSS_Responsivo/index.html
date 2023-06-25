@@ -21,6 +21,9 @@
                 <button type="submit">Enviar</button>
             </form>
         </div>
+        <div class="btn-menu">
+            <button type="button">Menu</button>
+        </div>
         <nav class="container">
             <ul class="menu">
                 <li>
@@ -120,5 +123,13 @@
             </section>
         </aside>
     </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('.btn-menu button').click(function(){
+                $('.menu').slideToggle();
+            });
+        })
+    </script>
 </body>
 </html>
