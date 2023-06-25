@@ -5,7 +5,7 @@
 <br />
 
 
-<h1>Front-End Adventure: Unleashing Web Wizardry! 🧙‍♀️🔮 </h1>
+<h1>✨ Front-End Adventure: Unleashing Web Wizardry! 🧙‍♀️🔮 </h1>
 
 Welcome to my enchanting GitHub repository, where I'm on an exhilarating journey as a front-end sorceress! 🌟🚀<br /><br />
 
