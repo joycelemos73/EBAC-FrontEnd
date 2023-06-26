@@ -18,7 +18,7 @@ To access the Game Shop page, follow these steps:<br />
 2. After cloning the repository, open the index.html file in your web browser to view the game shop page.<br /><br />
 </p>
 
-<h3> Built with </h3>
+<h3>🛠 Built with </h3>
 <p>
 • HTML5<br />
 • CSS3<br />
@@ -26,7 +26,7 @@ To access the Game Shop page, follow these steps:<br />
     Bungee<br />
     Roboto<br />
 
-Feel free to explore the code and customize it according to your needs.<br />
+Feel free to explore the code and customize it according to your needs.<br /><br />
 
 👾 Happy gaming! 👾
 </p>
