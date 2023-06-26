@@ -3,16 +3,17 @@
 </h4>
 <h2>Task 5: </h2>
 <p>
-    • Create a landing page
+    • Create a landing page<br /><br />
 </p>
-<br /><br />
+
 
 <h1>:fire: Hellfire Festival :fire:</h1>
 <h3>:guitar: Hellfire Festival Landing Page</h3>
 <p>
     This is a landing page for the fictional Hellfire Festival, a three-day metal music event featuring over 25 artists and 300,000 attendees.<br />
-    The landing page is built using pure HTML and CSS, without the use of any frameworks or libraries.
-</p><br />
+    The landing page is built using pure HTML and CSS, without the use of any frameworks or libraries.<br /><br />
+</p>
+
 <h3>:rocket: Getting Started</h3>
 <p>
     To view the landing page, simply download or clone this repository and open the 'index.html' file in your web browser.<br /><br />
@@ -20,10 +21,15 @@
     cd HellfireFestival<br />
     open index.html<br /><br />
     Alternatively, you can view the live version of tha page at https://hellfirefestival.vercel.app/
-    
-</p><br />
+    <br /><br />
+</p>
+
 <h3>:hammer: Built With</h3>
 <ul>
     <li>HTML</li>
     <li>CSS</li>
+    <br /><br />
 </ul>
+
+Landing Page:
+   ![Landing Page](HellfireFestival/img/landing_page.png)
