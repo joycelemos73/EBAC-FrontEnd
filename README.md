@@ -7,3 +7,4 @@
     • Create two more sections in the layout that was created class. <br />
     • The new sections should contain other pieces of news and different colours.<br />
 </p>
+<img src="Modulo04_CSS/imagens/screenshot.png" alt="Landing page">
