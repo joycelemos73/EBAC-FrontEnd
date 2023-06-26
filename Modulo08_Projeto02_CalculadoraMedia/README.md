@@ -24,5 +24,5 @@ To use the Grade Calculator, follow these steps:<br />
 1. Unpopulated Fields:
 ![Unpopulated Fields](images/unpopulated.png)
 
-2. Unpopulated Fields:
-![Unpopulated Fields](images/populated.png)
+2. Populated Fields:
+![Populated Fields](images/populated.png)
