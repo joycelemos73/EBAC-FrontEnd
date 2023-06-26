@@ -27,6 +27,14 @@
     6. Your tasks are automatically saved, so you can close the application or refresh the page without losing your progress.
 </p>
 
+1. Tasks added to the list:
+   ![Tasks added to the list](images/todo(1).png)
+
+2. Add and Cancel buttons and tasks marked as completed:
+   ![Add and Cancel buttons and tasks marked as completed](images/todo(2).png)
+
+<br />
+
 <h3>💻 Usage</h3>
 <p>
 
