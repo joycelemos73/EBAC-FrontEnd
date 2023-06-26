@@ -11,6 +11,9 @@
 <p>
 Contact Book is a web application that allows users to save their contacts, including their name, email, and phone number. <br />
 Users can add new contacts and view their existing contacts in a table format.<br /><br />
+
+<img src="contactBook/img/ContactBook.png" alt="Landing page">
+
 </p>
 
 <h3>:rocket: Getting Started</h3>
@@ -20,8 +23,8 @@ Users can add new contacts and view their existing contacts in a table format.<b
     cd contactBook<br />
     open index.html<br /><br />
     Alternatively, you can view the live version of tha page at https://contact-book-red.vercel.app/
-    
-</p><br />
+    <br /><br />
+</p>
 
 <h3>:art: Design</h3>
 <p>
@@ -33,9 +36,9 @@ Users can add new contacts and view their existing contacts in a table format.<b
 
 <h3>💻 Usage</h3>
 <p>
-  To add a new contact, simply fill out the form with the contact's name, email, and phone number, and click the "Save" button.<br />
-  The new contact will be added to the table.<br />
-  To view existing contacts, simply look at the table. The table shows the contact's name, email, and phone number.<br /><br />
+  • To add a new contact, simply fill out the form with the contact's name, email, and phone number, and click the "Save" button.<br />
+  • The new contact will be added to the table.<br />
+  • To view existing contacts, simply look at the table. The table shows the contact's name, email, and phone number.<br /><br />
 </p>
 
 <h3>:hammer: Built With</h3>
