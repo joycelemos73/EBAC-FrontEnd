@@ -30,9 +30,9 @@ To access the Gallery App application, follow these steps:
 </ol><br />
 </p>
 
-  <h3>🌐 Plugins</h3>
+<h3>🌐 Plugins</h3>
 
-To enhance the functionality and interactivity of Gallery App, we utilized the <a href="https://jquery.com/download/">jQuery library</a>. With jQuery, we achieved dynamic image addition, form interaction handling, and animation effects. The library streamlined the process of managing the gallery, allowing users to view images, add new ones, and enjoy a more interactive and user-friendly experience.
+To enhance the functionality and interactivity of Gallery App, we utilized the <a href="https://jquery.com/download/">jQuery library</a>. With jQuery, we achieved dynamic image addition, form interaction handling, and animation effects. The library streamlined the process of managing the gallery, allowing users to view images, add new ones, and enjoy a more interactive and user-friendly experience.<br /><br />
 
   <h3>📸 Screenshots</h3>
     <img src="images/gallery01.png" alt="Main page">
