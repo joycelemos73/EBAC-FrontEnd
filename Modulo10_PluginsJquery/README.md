@@ -92,3 +92,6 @@ The jQuery Mask Plugin allows you to easily apply masks to input fields, such as
 <a href="https://jqueryvalidation.org/">jQuery Validation Plugin:</a><br/>
 The jQuery Validation Plugin simplifies form input validation, helping you define rules and provide feedback to users. Include the jQuery and plugin libraries, initialize the plugin on your form, and specify validation rules and error messages.
 </p>
+
+<h3>📸 Screenshots</h3>
+  <img src="images/screenshot.png" alt="Landing page">
