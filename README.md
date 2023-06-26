@@ -13,11 +13,21 @@
 <h1>🔎 Validating Form Inputs 🔎</h1>
 <p>
   This is a simple web application that demonstrates how to validate form input using JavaScript.<br />
-  It consists of an HTML file that contains a form with two input fields, and a JavaScript file that checks whether the second input field is greater than the first one.<br />
-  If the second input is greater than the first one, the form will be submitted successfully and a success message will be displayed on the screen.<br />
-  If the second input field is less than or equal to the first one, an error message is displayed, and the form is prevented from being submitted.<br /><br />
+  It consists of an HTML file that contains a form with two input fields, and a JavaScript file that checks whether the second input field is greater than the first one.<br /><br />
+  ✅ If the second input is greater than the first one, the form will be submitted successfully and a success message will be displayed on the screen.<br /><br />
+  ❌ If the second input field is less than or equal to the first one, an error message is displayed, and the form is prevented from being submitted.<br />
 </p>
 
+1. Unpopulated Fields:
+   ![Unpopulated Fields](Modulo07_JavascriptComHTML/img/validation.png)
+
+2. Success Message:
+   ![Success Message](Modulo07_JavascriptComHTML/img/success.png)
+
+3. Error Message:
+   ![Error Message](Modulo07_JavascriptComHTML/img/error.png)
+
+<br /><br />
 <h3>:clipboard: Requirements</h3>
 <p>
   Web browser (Chrome, Firefox, Safari, Edge, etc.)<br /><br />
