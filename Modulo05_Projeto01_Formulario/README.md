@@ -22,9 +22,7 @@ To access the Game Shop page, follow these steps:<br />
 <p>
 • HTML5<br />
 • CSS3<br />
-• Google Fonts<br />
-    Bungee<br />
-    Roboto<br />
+• Google Fonts (Bungee, Roboto)
 
 Feel free to explore the code and customize it according to your needs.<br /><br />
 
